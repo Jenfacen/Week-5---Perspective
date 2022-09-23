@@ -23,7 +23,7 @@ public class MovementActivator8 : MonoBehaviour
         objectToActivate.GetComponent<MoveObject8>().enabled = true;
         otherObjectToActivate.GetComponent<MoveObject8>().enabled = true;
     }
-    private void pnTriggerExit(Collider other)
+    private void onTriggerExit(Collider other)
     {
         objectToActivate.GetComponent<MoveObject8>().enabled = true;
         otherObjectToActivate.GetComponent<MoveObject8>().enabled = true;
